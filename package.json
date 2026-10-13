@@ -1,0 +1,11 @@
+{
+  "name": "astro-server-island-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "astro build"
+  },
+  "dependencies": {
+    "astro": "7.3.8"
+  }
+}

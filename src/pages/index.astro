@@ -1,0 +1,11 @@
+---
+import { siteFonts } from "../fonts.mjs";
+
+const fontVariables = siteFonts.map((font) => font.cssVariable);
+---
+
+<html lang="en">
+  <body>
+    <p>{fontVariables.join(" ")}</p>
+  </body>
+</html>
